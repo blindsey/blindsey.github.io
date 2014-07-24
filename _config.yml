@@ -1,22 +1,26 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highligher:       rouge
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
-paginate:         1
+title:            Ben Lindsey
+tagline:          Make it work. Make it right. Make it fast. Make it small.
+url:              http://www.benlindsey.com
+paginate:         5 
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Ben Lindsey
+  url:            https://github.com/blindsey
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/blindsey/blindsey.github.io
+
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'

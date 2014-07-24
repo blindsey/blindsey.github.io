@@ -15,12 +15,18 @@
 
       {{ content }}
 
+      {% include comments.html %}
+
       <div class="footer">
-        <p>
+        <center>
+          {% for page in site.pages_list %}
+            <a href="{{ page[1] }}">{{ page[0] }}</a> |
+          {% endfor %}
           &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-        </p>
+        </center>
       </div>
     </div>
 
+    {% include analytics.html %}
   </body>
 </html>
