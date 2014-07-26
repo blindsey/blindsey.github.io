@@ -13,6 +13,7 @@ Xcode provides us with two fields for versioning an app - the version number and
 The Build is used internally for things like crash reports, event tracking, and user agents. It is typically a monotonically incrementing integer.
 
 How do we unify the two?
+
 <!---more--->
 
 ## The solution
