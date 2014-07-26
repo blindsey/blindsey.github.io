@@ -1,18 +1,19 @@
 ---
 layout: post
 title: An iOS build numbering strategy
-comment: true
+comments: true
 ---
 
 ## The problem
 
 Xcode provides us with two fields for versioning an app - the version number and the build number. The Version is customer facing and displayed in the App Store.
 
-```\{Major Version\}.\{Minor Version\}.\{Revision\}```
+```{Major Version}.{Minor Version}.{Revision}```
 
 The Build is used internally for things like crash reports, event tracking, and user agents. It is typically a monotonically incrementing integer.
 
 How do we unify the two?
+<!---more--->
 
 ## The solution
 
@@ -33,8 +34,8 @@ It is easy to decode the first part - this is the second (**b**) ad hoc build of
 Another advantage is that it makes communicating with the team much easier. For example:
 
 > "Hey Joe, what version are you testing with?"
-> "Oh I have 100c."
-> "Okay, let me look up your data."
+"Oh I have 100c."
+"Okay, let me look up your data."
 
 ## Cons
 
@@ -46,7 +47,7 @@ You also lose the total count of builds. Each version will have a letter of the 
 
 We also display the Version and Build in a settings bundle so everyone can easily look them up. Here is the code to make that happen:
 
-{ highlight objective-c }
+{% highlight objective-c %}
 @implementation AppDelegate
 + (void)initialize {
     NSDictionary *info = [[NSBundle mainBundle] infoDictionary];
@@ -56,7 +57,7 @@ We also display the Version and Build in a settings bundle so everyone can easil
     [defaults synchronize];
 }
 @end
-{ endhighlight }
+{% endhighlight %}
 
 The NSUserDefaults keys are configured in the Settings bundle and you have to run the app once to see the correct values.
 
