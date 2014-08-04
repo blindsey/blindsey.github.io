@@ -1,6 +1,8 @@
 # Dependencies
 markdown:         redcarpet
 highligher:       rouge
+redcarpet:
+  extensions: [ "autolink", "tables" ]
 
 # Permalinks
 permalink:        pretty

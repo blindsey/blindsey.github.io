@@ -17,6 +17,6 @@ Beta 6 | August 15, 2013 | ??
 Release | September 10, 2013 | ??
 Hardware | September 20, 2013 | ??
 
-*Taken from [http://osxdaily.com/](http://osxdaily.com/).
+*Taken from http://osxdaily.com/.
 
 I think it's safe to say that Apple is following last year's roadmap and we can expect two more beta builds before a Golden Master (GM) event in early September. And a new iPhone at the end of the month.
