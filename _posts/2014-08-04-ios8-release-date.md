@@ -19,4 +19,6 @@ Hardware | September 20, 2013 | ??
 
 *Source http://osxdaily.com/
 
-I think it's safe to say that Apple is following last year's roadmap and we can expect two more beta builds before a Golden Master (GM) event in early September. Hopefully we get a new Xcode beta today with cool new Swift features. And a new iPhone at the end of the month.
+I think it's safe to say that Apple is following last year's roadmap and we can expect two more beta builds before a Golden Master (GM) event in early September. And a new iPhone at the end of the month.
+
+We are overdue for a new build of Xcode and some new Swift hotness.
