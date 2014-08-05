@@ -19,6 +19,8 @@ Hardware | September 20, 2013 | ??
 
 *Source http://osxdaily.com/
 
-I think it's safe to say that Apple is following last year's roadmap and we can expect one more beta build before a Golden Master (GM) event in early September. And a new iPhone at the end of the month.
+I think it's safe to say that Apple is following last year's roadmap and we can expect one more beta build before a Golden Master (GM) event in early September. And new iPhone(s) at the end of the month.
 
 Expect a new build of Xcode in two weeks with some more Swift hotness.
+
+*UPDATE:* Apple has scheduled a big media event for Tuesday, September 9th.
